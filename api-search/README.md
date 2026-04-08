@@ -26,7 +26,7 @@ This project demonstrates frontend patterns and architectural decisions:
 
 ## Project Structure
 
-\`\`\`text
+```
 itunes-search-app/
 ├── client/                 # React 19 SPA (Vite)
 │   ├── src/
@@ -39,7 +39,7 @@ itunes-search-app/
 │   ├── index.ts            # Proxy logic and data filtering
 │   └── package.json
 └── README.md
-\`\`\`
+```
 
 ## Global Quick Start
 
