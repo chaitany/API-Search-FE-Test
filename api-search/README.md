@@ -47,21 +47,21 @@ itunes-search-app/
 
 1. **Install dependencies:**
    Navigate into both directories and install:
-   \`\`\`bash
+   ```bash
    cd server && npm install
    cd ../client && npm install
-   \`\`\`
+   ```
 
 2. **Start the Development Servers:**
    Terminal 1 (Backend):
-   \`\`\`bash
+   ```bash
    cd server
    npm run dev
-   \`\`\`
+   ```
    Terminal 2 (Frontend):
-   \`\`\`bash
+   ```bash
    cd client
    npm run dev
-   \`\`\`
+   ```
 
 3. Open `http://localhost:3000` in your browser.
