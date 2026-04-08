@@ -15,19 +15,19 @@ Directly querying the legacy iTunes API from a browser presents several issues: 
 * Node.js (v18 or higher)
 
 ### Installation
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### Running the Server
-\`\`\`bash
+```bash
 # Development mode (with hot-reloading)
 npm run dev
 
 # Production build & start
 npm run build
 npm start
-\`\`\`
+```
 The server will run on `http://localhost:8080` by default.
 
 ## API Documentation
@@ -43,7 +43,7 @@ Fetches and filters music tracks from the iTunes Search API.
 * `entity` (string, required): The entity type (must be `song`).
 
 **Response Shape:**
-\`\`\`json
+```json
 {
   "resultCount": 50,
   "results": [
@@ -57,4 +57,4 @@ Fetches and filters music tracks from the iTunes Search API.
     }
   ]
 }
-\`\`\`
+```
