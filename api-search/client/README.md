@@ -29,9 +29,9 @@ npm run dev
 
 **Run Tests:**
 Executes the Vitest suite. Tests include custom hook isolation testing, React Testing Library UI assertions, and mocked Redux stores using `Partial<RootState>`.
-\`\`\`bash
+```bash
 npm test
-\`\`\`
+```
 
 **Production Build:**
 Compiles the application via TypeScript and bundles it with Vite.
