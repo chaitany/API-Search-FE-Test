@@ -15,17 +15,17 @@ The frontend user interface for the iTunes Search application. Built for extreme
 * The backend proxy server must be running on port `8080`.
 
 ### Installation
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### Available Scripts
 
 **Start Development Server:**
 Starts the Vite dev server with Hot Module Replacement (HMR).
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 **Run Tests:**
 Executes the Vitest suite. Tests include custom hook isolation testing, React Testing Library UI assertions, and mocked Redux stores using `Partial<RootState>`.
@@ -35,9 +35,9 @@ npm test
 
 **Production Build:**
 Compiles the application via TypeScript and bundles it with Vite.
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 ## Testing Architecture
 
